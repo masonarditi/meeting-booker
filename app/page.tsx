@@ -5,6 +5,7 @@ import { LinkedInUrlInput } from "@/components/ui/linkedin-url-input"
 import { SparklesText } from "@/components/ui/sparkles-text"
 import { StatsBadge } from "@/components/ui/stats-badge"
 import { FlickeringGrid } from "@/components/ui/flickering-grid"
+import { PeopleCarousel } from "@/components/ui/people-carousel"
 import { motion, AnimatePresence } from "framer-motion"
 import { Loader2, ExternalLink } from "lucide-react"
 
@@ -164,6 +165,10 @@ export default function Home() {
         
         <motion.div variants={itemVariants} className="w-full flex justify-center">
           <LinkedInUrlInput onUrlChange={handleUrlChange} onUpload={handleUpload} />
+        </motion.div>
+        
+        <motion.div variants={itemVariants} className="w-full flex justify-center mt-6">
+          <PeopleCarousel />
         </motion.div>
         
         <AnimatePresence mode="wait" onExitComplete={() => console.log("[Animation] Exit animation completed for result")}>
