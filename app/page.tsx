@@ -157,7 +157,7 @@ export default function Home() {
             className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl" 
           />
           <SparklesText 
-            text="Get on the Calendly of the most important people with just a Linkedin URL." 
+            text="LinkedIn to Calendly in seconds." 
             className="mb-4 mt-4 text-gray-500 text-base sm:text-xl md:text-2xl font-light" 
             sparklesCount={0} 
           />

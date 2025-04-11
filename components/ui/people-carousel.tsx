@@ -7,29 +7,29 @@ import Image from "next/image"
 // People data array
 const people = [
   {
-    name: "Alex Chen",
-    description: "Tech Startup Founder",
-    photoSrc: "/avatars/alex.webp",
+    name: "Marc Andreessen",
+    description: "Co-founder of a16z, Tech Investor",
+    photoSrc: "/marcandreessen.jpg",
   },
   {
-    name: "Sarah Johnson",
-    description: "Marketing Executive",
-    photoSrc: "/avatars/sarah.webp",
+    name: "Garry Tan",
+    description: "CEO of Y Combinator",
+    photoSrc: "/garrytan.jpg",
   },
   {
-    name: "Michael Rodriguez",
-    description: "Investment Analyst",
-    photoSrc: "/avatars/michael.webp",
+    name: "Peter Thiel",
+    description: "Co-founder of PayPal, Venture Capitalist",
+    photoSrc: "/peterthiel.jpg",
   },
   {
-    name: "Priya Patel",
-    description: "Product Manager",
-    photoSrc: "/avatars/priya.webp",
+    name: "Cory Levy",
+    description: "Investor & Serial Entrepreneur",
+    photoSrc: "/corylevy.jpg",
   },
   {
-    name: "David Kim",
-    description: "Software Engineer",
-    photoSrc: "/avatars/david.webp",
+    name: "Sam Parr",
+    description: "Founder of The Hustle, Podcaster",
+    photoSrc: "/samparr.jpeg",
   }
 ]
 
