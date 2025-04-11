@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { LinkedInUrlInput } from "@/components/ui/linkedin-url-input"
 import { SparklesText } from "@/components/ui/sparkles-text"
+import { StatsBadge } from "@/components/ui/stats-badge"
 import { motion } from "framer-motion"
 
 export default function Home() {
@@ -39,6 +40,10 @@ export default function Home() {
       initial="hidden"
       animate="visible"
     >
+      <motion.div variants={itemVariants} className="mb-2">
+        <StatsBadge value={50} label="Response Rate with Clients" />
+      </motion.div>
+      
       <motion.div 
         className="text-center max-w-4xl mx-auto"
         variants={itemVariants}
@@ -49,7 +54,7 @@ export default function Home() {
         />
         <SparklesText 
           text="Get on the Calendly of the most important people with just a Linkedin URL." 
-          className="mb-4 mt-2 text-gray-500 text-base sm:text-xl md:text-2xl font-light" 
+          className="mb-4 mt-4 text-gray-500 text-base sm:text-xl md:text-2xl font-light" 
           sparklesCount={0} 
         />
       </motion.div>

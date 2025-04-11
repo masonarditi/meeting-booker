@@ -57,12 +57,12 @@ export function LinkedInUrlInput({
   
   return (
     <motion.div 
-      className="w-full max-w-md"
+      className="w-full max-w-lg"
       initial="hidden"
       animate="visible"
       variants={cardVariants}
     >
-      <div className="bg-white rounded-lg border shadow-sm p-6">
+      <div className="bg-white rounded-lg border shadow-sm p-7">
         <h3 className="text-lg font-semibold mb-3 text-center flex items-center justify-center">
           <img 
             src="/linkedin-color.png" 
@@ -84,7 +84,7 @@ export function LinkedInUrlInput({
             placeholder="https://www.linkedin.com/in/your-profile/" 
             value={url}
             onChange={handleUrlChange}
-            className="w-full transition-all duration-200 pr-12"
+            className="w-full transition-all duration-200 pr-12 py-5 text-base"
           />
           <motion.button
             style={{ backgroundColor: linkedInBlue }}
@@ -96,7 +96,7 @@ export function LinkedInUrlInput({
             whileTap="tap"
             aria-label="Upload"
           >
-            <ArrowUp size={16} />
+            <ArrowUp size={18} />
           </motion.button>
         </motion.div>
       </div>
