@@ -29,6 +29,28 @@ export default function RootLayout({
       >
         {children}
       </body>
+
+      <footer className="w-full py-4 bg-gray-100">
+          <div className="text-center text-gray-500 text-sm">
+            <a 
+              href="https://x.com/createdbymason" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-gray-700 transition-colors"
+            >
+              @createdbymason
+            </a>{" "}
+            and{" "}
+            <a 
+              href="https://x.com/aryanmparekh" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-gray-700 transition-colors"
+            >
+              @aryanmparekh
+            </a>
+          </div>
+        </footer>
     </html>
   );
 }
