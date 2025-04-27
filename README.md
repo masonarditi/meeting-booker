@@ -5,10 +5,8 @@ i made this in a few hours with my homie aryan<href=https://x.com/aryanmparekh) 
 website is live at https://meeting-booker.vercel.app/
 
 
-<video controls width="100%" poster="assets/thumbnail.jpg">
-  <source src="assets/calgpt-demo.mp4" type="video/mp4">
-  Sorry, your browser doesn’t support embedded videos.
-</video>
+https://github.com/user-attachments/assets/456375a6-fded-4ee2-b76d-e1ca94d42617
+
 
 if you wanna run this:
 - clone repo
