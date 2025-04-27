@@ -4,7 +4,11 @@ i made this in a few hours with my homie aryan<href=https://x.com/aryanmparekh) 
 
 website is live at https://meeting-booker.vercel.app/
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7318118238846889984?collapsed=1" height="550" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<video controls width="100%" poster="assets/thumbnail.jpg">
+  <source src="assets/calgpt-demo.mp4" type="video/mp4">
+  Sorry, your browser doesn’t support embedded videos.
+</video>
 
 if you wanna run this:
 - clone repo
